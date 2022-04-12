@@ -69,3 +69,13 @@
 `curl -fsSL https://deb.nodesource.com/setup_17.x | bash -`
 
 `apt-get install -y nodejs`
+
+## Installing Chrome using Ubuntu terminal
+
+- we get the package
+
+`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+
+- and install it using "dpkg" or depackage method
+
+`sudo dpkg -i google-chrome-stable_current_amd64.deb`
