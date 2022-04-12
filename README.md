@@ -58,6 +58,14 @@
 - ref: [Click Link](https://github.com/nodesource/distributions/blob/master/README.md)
 - to install "Node.js v17.x"
 
-`curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-sudo apt-get install -y nodejs`
+### as Ubuntu sudoer
 
+`curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -`
+
+`sudo apt-get install -y nodejs`
+
+### as Debian root
+
+`curl -fsSL https://deb.nodesource.com/setup_17.x | bash -`
+
+`apt-get install -y nodejs`
